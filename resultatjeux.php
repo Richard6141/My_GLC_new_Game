@@ -9,7 +9,7 @@ function resultat($premier, $second)
     }
 
     if (!(count($premier['notes']) == count($second['notes']))) {
-        echo "Erreur ! Les participants n'ont pas les mêmes nombres de points.";
+        echo "Erreur ! Les participants n'ont pas les mêmes nombres de notes.";
         return false;
     }
 
