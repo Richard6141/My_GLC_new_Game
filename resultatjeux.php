@@ -43,3 +43,14 @@ function resultat($premier, $second)
     }
 }
 
+$kodjo = array(
+    'nom' => "Kodjo",
+    'notes' => [12, 8, 15, 10, 11]
+);
+
+$awa = array(
+    'nom' => "Awa",
+    'notes' => [14, 14, 9, 6, 13]
+);
+
+resultat($kodjo, $awa);
